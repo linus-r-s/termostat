@@ -7,7 +7,7 @@ input.onButtonPressed(Button.B, function () {
     basic.showNumber(my_temp)
 })
 let my_temp = 0
-my_temp = 20
+my_temp = 21
 basic.showNumber(my_temp)
 basic.forever(function () {
     if (input.temperature() < my_temp) {
